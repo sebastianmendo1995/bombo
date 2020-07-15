@@ -1,0 +1,60 @@
+.main-content {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.form-container {
+    margin: 0 auto;
+    text-align: center;
+}
+input {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    cursor: text;
+    margin: 0em;
+    font: 400 11px system-ui;
+    border-width: 2px;
+}
+
+input[type='text'], input[type='date'] {
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px 16px;
+    margin: 10px 0;
+    outline: none;
+    border-radius: 8px;
+    color: #0d0c22;
+    background-color: #f3f3f4;
+}
+
+.form-sub {
+    color: #fff;
+    padding: 10px 16px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    background: #ea4c89;
+    transition: all 200ms ease;
+    border-radius: 8px;
+    position: relative;
+    outline: none;
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
